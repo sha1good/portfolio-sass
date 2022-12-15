@@ -1,0 +1,47 @@
+.contact{
+    height: 100vh;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: 
+    linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+    ),
+    url('../img/model-1.jpg') top center;
+    background-size: cover;
+
+    h2{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 10px;
+     }
+
+     &__list{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+        font-size: 24px;
+     }
+
+     .social-icons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+}
